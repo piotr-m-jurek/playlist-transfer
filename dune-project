@@ -19,7 +19,7 @@
  (name playlist_transfer)
  (synopsis "Move playlists between music services")
  (description "A longer description")
- (depends ocaml dune cohttp-lwt-unix lwt_ssl)
+ (depends ocaml dune cohttp-lwt-unix lwt_ssl dotenv)
  (tags
   (topics "to describe" your project)))
 

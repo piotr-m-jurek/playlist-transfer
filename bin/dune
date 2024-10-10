@@ -1,4 +1,4 @@
 (executable
  (public_name playlist_transfer)
  (name main)
- (libraries playlist_transfer cohttp-lwt-unix lwt))
+ (libraries playlist_transfer cohttp-lwt-unix dotenv))
