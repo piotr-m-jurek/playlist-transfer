@@ -1,2 +1,5 @@
 (library
- (name playlist_transfer))
+ (name playlist_transfer)
+ (libraries dotenv cohttp-lwt-unix yojson)
+ (preprocess
+  (pps ppx_deriving_yojson ppx_deriving.show)))

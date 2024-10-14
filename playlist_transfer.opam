@@ -15,6 +15,9 @@ depends: [
   "cohttp-lwt-unix"
   "lwt_ssl"
   "dotenv"
+  "yojson"
+  "core"
+  "ppx_deriving_yojson"
   "odoc" {with-doc}
 ]
 build: [

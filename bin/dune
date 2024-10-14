@@ -1,4 +1,6 @@
 (executable
  (public_name playlist_transfer)
  (name main)
- (libraries playlist_transfer cohttp-lwt-unix dotenv))
+ (libraries playlist_transfer lwt cohttp cohttp-lwt-unix dotenv core yojson)
+ (preprocess
+  (pps ppx_deriving_yojson ppx_deriving.show)))
